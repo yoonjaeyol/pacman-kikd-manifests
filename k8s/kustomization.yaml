@@ -1,0 +1,6 @@
+resources:
+- pacman-deployment.yaml
+- pacman-namespace.yaml
+- pacman-sealedsecret.yaml
+- pacman-service.yaml
+
