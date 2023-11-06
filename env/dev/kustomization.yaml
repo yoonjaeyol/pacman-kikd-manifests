@@ -1,2 +1,7 @@
-bases:
-  - ../../k8s/
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../k8s/
+images:
+- digest: sha256:85d0a6f8b30fb11b5d89e21234937373daac35fef4fe871690b46a2b7cb87d62
+  name: firewood2002/pacman-kikd:latest
